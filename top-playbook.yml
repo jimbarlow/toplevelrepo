@@ -1,0 +1,8 @@
+---
+- name: Top Module
+  hosts: all
+  vars:
+  tasks:
+    - debug: 
+        msg: This is coming from the Top Module, or containing modle
+
